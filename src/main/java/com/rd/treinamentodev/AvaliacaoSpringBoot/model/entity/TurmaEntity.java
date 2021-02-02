@@ -3,7 +3,7 @@ package com.rd.treinamentodev.AvaliacaoSpringBoot.model.entity;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.sql.Date;
 import java.util.List;
 
 @Entity
