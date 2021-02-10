@@ -20,7 +20,7 @@ public class CursoService {
         cursoEntity.setNomeCurso(curso.getNomeCurso());
         cursoEntity.setNrCargaHoraria(curso.getNrCargaHoraria());
         repository.save(cursoEntity);
-        System.out.println(curso.getIdCurso() + " . " + curso.getNomeCurso() + " . " +curso.getNrCargaHoraria());
+        System.out.println(curso.getNomeCurso() + " . " +curso.getNrCargaHoraria());
         return "Curso cadastrado com sucesso";
     }
 }
